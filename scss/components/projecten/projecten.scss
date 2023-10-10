@@ -1,0 +1,42 @@
+.projecten{
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+    flex-direction: column;
+
+    &__h2{
+        color: #eee  ;
+        font-size: 300%;
+
+    }
+
+    &__article{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+        flex-wrap: wrap;
+        margin-top: 6rem;
+    }
+
+    &__figure{
+        width: 25rem;
+        height: 30rem;
+        background-color: #068FFF ;
+        border-radius: 0.5rem;
+        transition: 1s all;
+
+        &:hover{
+            width: 26rem;
+            height: 31rem;
+            cursor: pointer;
+        }
+
+    }
+
+    &__img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}

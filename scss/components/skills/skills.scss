@@ -1,0 +1,46 @@
+.skills{
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+    flex-direction: column;
+
+    &__h2{
+        color: #eee  ;
+        font-size: 300%;
+
+    }
+
+    &__div{
+       display: flex;
+       gap: 2rem;
+       flex-wrap: wrap;
+       align-items: center;
+       justify-content: center;
+       margin-top: 6rem;
+    }
+
+    &__figure{
+        width: 15rem;
+        height: 15rem;
+        background-color:  #068FFF ;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: 1s all;
+        flex-direction: column;
+
+        &:hover{
+            width: 18rem;
+            height: 18rem;
+        
+
+        }
+       
+    }
+
+    &__icon{
+        font-size: 800%;
+       color: #272829 ; 
+    }
+}

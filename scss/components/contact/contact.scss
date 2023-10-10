@@ -1,0 +1,59 @@
+.contact{
+    display: flex;
+    align-items: center;
+    margin-top: 6rem;
+    flex-direction: column;
+
+    &__h2{
+        color: #068FFF  ;
+        font-size: 300%;
+
+    }
+
+}
+
+.form{
+
+    &__div{
+        border-radius:1rem;
+        border: #068FFF solid 0.5rem;
+        width: 100rem;
+        /*height: 60rem;*/
+        padding: 6rem;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        
+    }
+
+    &__article{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: #eee;
+        gap: 4rem;
+
+    }
+
+    &__icon{
+        color: #068FFF;
+        font-size: 400%;
+
+    }
+
+    &__wrapper{
+        display: flex;
+        gap: 2rem;
+    }
+
+    &__h2{
+        font-size: 400%;
+    }
+
+    &__link{
+       
+    }
+}

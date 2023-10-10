@@ -1,0 +1,31 @@
+.over{
+    display: flex;
+    align-items: center;
+    margin-top: 6rem;
+    flex-direction: column;
+
+    &__h2{
+        color: #eee ;
+        font-size: 300%;
+
+    }
+
+    &__h3{
+        margin-top: 3rem;
+        color: #eee ;
+        font-size: 220%;
+    }
+
+    &__p{
+        margin-top: 2rem;
+        color: #eee;
+        width: 130rem;
+        font-size: 150%;
+        gap: 3rem;
+       
+      
+    }
+
+    
+    
+}

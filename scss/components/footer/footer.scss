@@ -1,0 +1,21 @@
+.footer{
+    width: 100%;
+    height: 20rem;
+    background-color: #068FFF ;
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding:2rem;
+
+    &__p{
+        font-size: 250%;
+        color: #eee;
+    }
+
+    &__icon{
+        font-size: 250%;
+        color: #eee;
+    }
+}

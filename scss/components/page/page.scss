@@ -1,0 +1,36 @@
+.page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 4remz;
+
+    &__img{
+      
+        width: 120rem;
+        height: 50rem;
+        object-fit: cover;
+    }
+
+    &__h2{
+      
+        color: #eee;
+        font-size: 400%;
+    }
+
+    &__p{
+     
+        color: #eee;
+        font-size: 300%;
+        width: 120rem;
+
+    }
+
+
+    &__wrapper{
+        display: flex;
+        gap: 2rem;
+    }
+}
+

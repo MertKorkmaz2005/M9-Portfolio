@@ -2,5 +2,14 @@ body{
     min-height: 100vh;
     background: #272829;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
     
+}
+
+section{
+    min-height: 40rem;
+}
+
+strong{
+    color: #068FFF;
 }

@@ -1,0 +1,459 @@
+@media screen and  (max-width:83rem) {
+
+    .page{
+        margin-top: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 3rem;
+    
+        &__img{
+          
+            width: 90rem;
+            height: 40rem;
+            object-fit: cover;
+        }
+    
+        &__h2{
+          
+            color: #eee;
+            font-size: 400%;
+        }
+    
+        &__p{
+         
+            color: #eee;
+            font-size: 250%;
+            width: 100rem;
+    
+        }
+    
+    
+        &__wrapper{
+            display: flex;
+            gap: 2rem;
+        }
+    }
+    
+    
+
+    
+.main{
+    height: 83rem;
+    background: url(../../../img/main.jpg);
+    object-fit: contain;
+
+    &__h2{
+        color: #eee;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 250%;
+        margin-top: 30rem;
+        padding:2rem;
+    }
+
+    &__wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 3rem;
+    }
+
+    &__button{
+        border: none;
+        background:#068FFF ;
+        width: 13rem;
+        height: 5rem;
+        border-radius: 0.5rem;
+        transition: background-color 0.3s ease-in-out;
+
+        &:hover{
+            cursor: pointer;
+            background: #0655ff ;
+        }
+        
+    }
+
+    &__link{
+        text-decoration: none;
+        color: #eee;
+    }
+    
+}
+
+.over{
+    display: flex;
+    align-items: center;
+    margin-top: 6rem;
+    flex-direction: column;
+
+    &__h2{
+        color: #eee ;
+        font-size: 250%;
+
+    }
+
+    &__h3{
+        margin-top: 3rem;
+        color: #eee ;
+        font-size: 220%;
+    }
+
+    &__p{
+        margin-top: 2rem;
+        color: #eee;
+        width: 100rem;
+        font-size: 150%;
+        gap: 3rem;
+       
+      
+    }
+
+    
+    
+}
+
+
+
+.header{
+    &__logo{
+        width: 4rem;
+        height: 4rem;
+    }
+    &__img{
+        display: none;
+    }
+    &__wrapper{
+        display: flex;
+        align-items: flex-start;
+        margin-right: 5rem;
+        
+    }
+    &__list{
+        width: 100vw;
+        height: 6rem;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 5rem;
+        padding-right: 4rem;
+        flex-wrap: wrap;
+    }
+
+    &__listItem{
+        color: #068FFF;
+        font-size: 200%;
+        list-style: none;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 800;
+      
+    }
+
+    
+}
+
+}
+
+
+@media screen and  (max-width:70rem) {
+
+    .page{
+        margin-top: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 3rem;
+    
+        &__img{
+          
+            width: 70rem;
+            height: 50rem;
+            object-fit: cover;
+        }
+    
+        &__h2{
+          
+            color: #eee;
+            font-size: 400%;
+        }
+    
+        &__p{
+         
+            color: #eee;
+            font-size: 250%;
+            width: 70rem;
+    
+        }
+    
+    
+        &__wrapper{
+            display: flex;
+            gap: 2rem;
+        }
+    }
+    
+    
+    .over{
+        display: flex;
+        align-items: center;
+        margin-top: 6rem;
+        flex-direction: column;
+    
+        &__h2{
+            color: #eee ;
+            font-size: 250%;
+    
+        }
+    
+        &__h3{
+            margin-top: 3rem;
+            color: #eee ;
+            font-size: 220%;
+        }
+    
+        &__p{
+            margin-top: 2rem;
+            color: #eee;
+            width: 70rem;
+            font-size: 150%;
+            gap: 3rem;
+           
+          
+        }
+    
+        
+        
+    }
+
+    .contact{
+        display: flex;
+        align-items: center;
+        margin-top: 6rem;
+        flex-direction: column;
+    
+        &__h2{
+            color: #068FFF  ;
+            font-size: 300%;
+    
+        }
+    
+    }
+    
+    .form{
+    
+       
+    &__div{
+        border-radius:1rem;
+        border: #068FFF solid 0.5rem;
+        width: 50rem;
+        margin-top: 6rem;
+        padding: 4rem;
+        margin-top: 3rem;
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        
+    }
+    
+       
+    }
+
+}
+
+
+@media screen and  (max-width:60rem) {
+
+    .page{
+        margin-top: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 3rem;
+    
+        &__img{
+          
+            width: 60rem;
+            height: 40rem;
+            object-fit: cover;
+        }
+    
+        &__h2{
+          
+            color: #eee;
+            font-size: 400%;
+        }
+    
+        &__p{
+         
+            color: #eee;
+            font-size: 250%;
+            width: 60rem;
+    
+        }
+    
+    
+        &__wrapper{
+            display: flex;
+            gap: 2rem;
+        }
+    }
+    
+
+    .form{
+           
+        &__div{
+            border-radius:1rem;
+            border: #068FFF solid 0.5rem;
+            width: 38rem;
+            margin-top: 6rem;
+            padding: 4rem;
+            margin-top: 3rem;
+            display: flex;
+            flex-direction: column;
+            gap: 3rem;
+            
+        }
+        
+           
+        
+
+    } 
+
+    .over{
+        display: flex;
+        align-items: center;
+        margin-top: 6rem;
+        flex-direction: column;
+    
+        &__h2{
+            color: #eee ;
+            font-size: 250%;
+    
+        }
+    
+        &__h3{
+            margin-top: 3rem;
+            color: #eee ;
+            font-size: 220%;
+        }
+    
+        &__p{
+            margin-top: 2rem;
+            color: #eee;
+            width: 50rem;
+            font-size: 150%;
+            gap: 3rem;
+           
+          
+        }
+    
+        
+        
+    }
+
+}
+
+@media screen and  (max-width:50rem) {
+
+    .page{
+        margin-top: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 3rem;
+    
+        &__img{
+          
+            width: 38rem;
+            height: 25rem;
+            object-fit: cover;
+        }
+    
+        &__h2{
+          
+            color: #eee;
+            font-size: 400%;
+        }
+    
+        &__p{
+         
+            color: #eee;
+            font-size: 250%;
+            width: 30rem;
+    
+        }
+    
+    
+        &__wrapper{
+            display: flex;
+            gap: 2rem;
+        }
+    }
+
+    .form{
+    
+        border-radius:1rem;
+        border: #068FFF solid 0.5rem;
+        width: 30rem;
+        margin-top: 6rem;
+        padding: 4rem;
+        &__div{
+            margin-top: 3rem;
+            display: flex;
+            flex-direction: column;
+            gap: 3rem;
+        }
+        &__h2{
+            font-size: 200%;
+            color: #eee;
+    
+        }
+
+
+        &__textarea{
+            display: flex;
+            width: 20rem;
+            height: 15rem;
+        }
+
+    } 
+
+    .over{
+        display: flex;
+        align-items: center;
+        margin-top: 6rem;
+        flex-direction: column;
+    
+        &__h2{
+            color: #eee ;
+            font-size: 250%;
+    
+        }
+    
+        &__h3{
+            margin-top: 3rem;
+            color: #eee ;
+            font-size: 220%;
+        }
+    
+        &__p{
+            margin-top: 2rem;
+            color: #eee;
+            width: 38rem;
+            font-size: 150%;
+            gap: 3rem;
+           
+          
+        }
+    
+        
+        
+    }
+
+}
